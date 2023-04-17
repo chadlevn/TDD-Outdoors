@@ -6,9 +6,10 @@ This is a sample project meant to demonstrate a simple architecture that you mig
 
 ### Add Activities
 
-This feature has a model and a comomand.
-The model has only what is necessary to add a new activity. It 
-has validation rules and tests for each of them.
+This feature has a model and a command.
+
+The model has only what is necessary to add a new activity.
+It has validation rules and tests for each of them.
 
 The command takes in the model, and adds a new activity to the database context. 
 It has tests proving that it adds a new activity and returns the new primary key.
